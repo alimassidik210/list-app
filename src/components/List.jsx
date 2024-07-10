@@ -53,7 +53,7 @@ export default function List({
         <select
           value={sortedBy}
           onChange={(e) => setSortedBy(e.target.value)}
-          className="p-2 text-center text-xl rounded-md w-[80%] sm:w-[50%] "
+          className="p-2 text-center  rounded-md w-[80%] sm:w-[50%] text-sm sm:text-xl"
         >
           <option value="input">urutkan berdasarkan input</option>
           <option value="name">urutkan berdasarkan nama</option>
