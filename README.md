@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [my code](https://github.com/alimassidik210/product-preview-card.git)
-- Live Site URL: [my web](https://product-preview-card-ten-beta.vercel.app/)
+- Solution URL: [my code](https://github.com/alimassidik210/list-app.git)
+- Live Site URL: [my web](https://list-app-three.vercel.app/)
 
 ## My process
 
