@@ -24,12 +24,12 @@ export default function List({
 
   return (
     <>
-      <div className="flex-grow bg-gray-200 p-4 overflow-scroll">
+      <div className="flex-grow   bg-gray-200 p-4 overflow-scroll">
         <ul>
           {sortedItems.map((item) => (
             <li
               key={item.id}
-              className="capitalize flex justify-center items-center gap-3 mb-3"
+              className="capitalize flex justify-center items-center  gap-3 mb-3"
             >
               <input
                 type="checkbox"
@@ -37,9 +37,7 @@ export default function List({
                 onChange={() => onToggleItem(item.id)}
                 className="w-5 h-5"
               />
-              <span
-                className={`text-2xl ${item.checked ? "line-through" : ""}`}
-              >
+              <span className={`text-xl ${item.checked ? "line-through" : ""}`}>
                 {item.quantity} - {item.name}
               </span>
               <button onClick={() => onDeleteItem(item.id)}>

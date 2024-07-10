@@ -32,7 +32,7 @@ export default function Form({ onAddItem, titleFormChild }) {
       <input
         type="text"
         className="p-2 text-center bg-gray-200 rounded-md w-full md:w-1/3 "
-        placeholder="jumlah / jenis (optional)"
+        placeholder="jumlah/jenis/waktu (optional)"
         value={quantity}
         onChange={(e) => setQuantity(e.target.value)}
       />
